@@ -20,7 +20,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    margin-top: 15px;    
+    margin-top: 15px;
 }
 .menu-logoname{
     display: none;
@@ -123,13 +123,11 @@ line-height: 16px;
 }
 .images{
     width: 400px;
-height: 280px;
-left: 1130px;
-top: 289px;
-background: #01223F;
-border: 2px solid #F2DF3A;
-box-shadow: 0px 0px 20px 2px #F2DF3A;
-border-radius: 49px;
+    height: 280px;
+    background: #01223F;
+    border: 2px solid #F2DF3A;
+    box-shadow: 0px 0px 20px 2px #F2DF3A;
+    border-radius: 49px;
 }
 .play
 {
@@ -177,22 +175,310 @@ border-radius: 49px;
 }
 /* sports cards end     */
 
+/* our ecosystem part start */
+    .our-ecosystem{
+        padding-top: 80px;
+    }
+    .our-ecosystem h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 69px;
+        color: #01223F;
+        padding-bottom: 50px;
+    }
+    .main-img img{
+        width: 450px;
+    }
+    .grass1 img,.grass2 img,.grass3 img{
+        width: 350px;
+    }
+    .ecosystem-card,.ecosystem-card2{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+        gap: 75px;
+    }
+    .grass1{
+        position: absolute;
+        left: 42%;
+        z-index: -1;
+    }   
+    .grass2{
+        position: absolute;
+        left: 32%;
+        top: 65%;
+        z-index: -1;
+    }
+    .grass3{
+        position: absolute;
+        right: 45%;
+        top: 60%;
+        z-index: -1;
+    }
+    .img-part{
+        position: relative;
+    }
+    .text-part,.text-part2{
+        padding-top: 50px;
+        /* padding-left: 75px; */
+    }
+    .text-part2 h4{
+        font-weight: 700;
+        font-size: 36px;
+        /* line-height: 50px;  */
+        color: #01223F;
+    }
+    .text-part2 p{
+        font-weight: 400;
+        font-size: 16px;    
+        /* line-height: 25px; */
+        color: #01223F;
+    }
+    .lists{
+        padding-left: 10px;
+    }
+    .text-part h4{
+        font-weight: 700;
+        font-size: 20px;
+        /* line-height: 30px; */
+    }
+    .text-part h3{
+        font-weight: 700;
+        font-size: 36px;
+        /* line-height: 50px; */
+        color: #01223F;
+    }
+    .text-part p{
+        font-weight: 400;
+        font-size: 16px;
+        /* line-height: 25px; */
+        color: #01223F;
+    }
+/* our ecosystem part end */
 
+/* our Mint part start */
+    .our-mint{
+        margin: 35px 0;
+        height: 280px;
+        background: #141420;
+    }
+    .steps{
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+    }
+    .step{
+        display: flex;
+    }
+    .our-mint h4{
+        padding-top: 36px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FEAD29;
+        padding-left: 110px;
+    }
+    .our-mint h3{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+        padding-bottom: 37px;
+        padding-left: 115px;
 
+    }
+    .step p{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        padding-left: 15px;
+    }
+/* our Mint part end */
 
+/* create nft part start */
+    .create-nft{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding: 100px 0;
+    }
+    .create-nft img{
+        width: 470px;
+    }
+    .nft-texts{
+        padding-top: 55px;
+    }
+    .create-nft h4{
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    .create-nft h2{
+        font-weight: 700;
+        font-size: 36px;
+        color: #01223F;
+    }
+    .create-nft p{
+        font-weight: 400;
+        font-size: 17px;
+        color: #01223F;
+        padding-top: 16px;
+    }
+/* create nft part end */
 
+/* sell-nft part start */
+    .sell-nft{
+        display: flex;
+        justify-content: center;
+        gap: 110px;
+        padding-bottom: 50px;
+    }
+    .sell-nfts{
+        display: flex;
+        padding-bottom: 18px;
+        padding-top: 18px;
+        align-items: center;
+    }
+    .sell-nft-intro h2{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 50px;
+        color: #01223F;
+    }
+    .sell-nft-intro p{
+        font-weight: 400;
+        font-size: 18px;
+        color: #01223F;
+        padding-bottom: 20px;
+    }
+    .sell-nft-intro img{
+        width: 490px;
+    }
+    .line{
+        width: 300px;
+        height: 2px;
+        background: #01223F;
+        margin-left: 95px;
+    }
+    .sell-nfts h4{
+        font-weight: 700;
+        font-size: 20px;
+        color: #01223F;
+        padding-bottom: 7px;
+    }
+    .sell-nfts p{
+        font-weight: 400;
+        font-size: 18px;    
+        color: #01223F;
+    }
+    .sell-texts{
+        padding-left: 18px;
+    }
+    .sell-nft-steps{
+        padding-top: 65px;
+    }
+/* sell-nft part end */
 
+/* Our-Documents Parts Start */
+    .our-documents{
+        padding: 55px 0;
+        background: #141420;
+    }
+    .main-rectangle{
+        margin: 0 auto;
+        width: 990px;
+        height: 150px;
+        background: #12111D;
+        border: 5px solid #FEAD29;
+        border-radius: 64px;
+        padding: 35px 0;
+    }
+    .document-intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 105px;
+    }
+    .learn-btn{
+        background-image: url(./images/document-btn.svg);
+        width: 143.42px;
+        height: 70.43px;
+        background-repeat: no-repeat;
+    }   
+    .learn-btn p{
+        padding: 25px 25px 23px 40px;
+        background: none;
+        font-weight: 600;
+        font-size: 12.7292px;
+        line-height: 19px;
+        color: #FFFFFF;
+        border: none;
+    }
+    .intro-text h1{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .intro-text span{
+        color: #FEAD29;
+    }
+    .our-documents h2{
+        padding-top: 45px;
+        padding-bottom: 35px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 69px;
+    }
+    .rightarrow{
+        width: 10px;
+        height: 12px;
+    }
+    .news-media{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .news-media img{
+        width: 300px;
+        height: 250px;
+        border-radius: 15px;
+        box-shadow: rgba(224, 215, 215, 0.877) 0px 18px 50px -10px;
+    }
+    .news-media p{
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .medias{
+        position: relative;
+    }
+    .date
+    {   width: 90px;
+        height: 32px;
+        position: absolute;
+        background: #3C3537;
+        border-radius: 5px;
+        right: 1%;
+        bottom: 94%;
+    }
+    .date h3{
+        font-weight: 500;
+        font-size: 10px;
+        color: #EFEAE2;
+        padding: 10px 0;
+        text-align: center;
+    }
+/* Our-Documents Parts End  */
+/* footer part start */
 
+footer img{
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+/* footer part end */
 
 
 
@@ -228,6 +514,57 @@ border-radius: 49px;
     .btn{
         display: none;
     }
+    
+    .text-part,.text-part2{
+        padding: 25px;
+    }
+    .our-mint{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps{
+        flex-direction: column;
+        padding-left: 35px;
+    }
+    .our-mint h4,.our-mint h3{
+        text-align: start;
+        padding-left: 0;
+    }
+    .create-nft{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .nft-texts{
+        padding: 15px;
+    }
+
+
+    .sell-nft{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        padding: 15px;
+    }
+    .sell-nft-intro{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sell-nft-steps{
+        padding: 0;
+    }
+    .main-rectangle{
+        width: 100%;
+    }
+    .news-media{
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /* 768px */
@@ -236,10 +573,30 @@ border-radius: 49px;
         justify-content: center;
         padding: 15px;
     }
+    .ecosystem-card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+    .ecosystem-card2{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .grass1 img,.grass2 img,.grass3 img{
+        display: none;
+    }
+    .document-intro{
+        flex-direction: column;
+        gap: 0;
+        height: 100%;
+    }
     
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:440px) {
         .home-btns{
             padding-left: 0;
             gap: 0;
@@ -251,4 +608,28 @@ border-radius: 49px;
         .play{
             padding-left: 100px;
         }
+        .main-img img{
+            width: 100%;
+        }
+        .create-nft img{
+            width: 100%;
+        }
+        .news-media img{
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 500px) {
+    .sell-nft-intro img{
+        width: 100%;
+    }
+    .line{
+        margin: 0;
+    }
+    .sell-nft-intro p{
+        padding-top: 15px;
+    }
+    .intro-text h1{
+        font-size: 18px;
+    }
 }
