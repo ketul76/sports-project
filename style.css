@@ -121,7 +121,7 @@ line-height: 16px;
 .home-btns button:hover{
     background-color: transparent !important;
 }
-.images{
+iframe{
     width: 400px;
     height: 280px;
     background: #01223F;
